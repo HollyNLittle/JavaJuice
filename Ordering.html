@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Java Juice Ordering</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- navigation -->
+        <div class="masthead">
+            <nav>
+                <ul class="nav nav-justified">
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="Menu.html">Menu</a></li>
+                    <li><a href="Catering.html">Catering</a></li>
+                    <li><a href="Ordering.html">Order Java Beans</a></li>
+                    <li><a href="About.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="ordering-page">
+            <!-- header -->
+            <header class="inner-pages-header">
+                <h2>Order Java Juice Beans  <span class="logo"><i class="fas fa-coffee"></i></span></h2>
+                <h4>We scour the world to bring only the best beans to you!</h4>
+            </header>
+
+            <!-- columns -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="menus">
+                        <h3>Beverages</h3>
+                        <ul class="menu-list gray">
+                            <li>
+                                <h4>Coffees</h4>
+                                <img src="Images/coffeecup.jpeg" />
+                            </li>
+                            <li>
+                                <h4>Teas</h4>
+                                <img src="Images/coffeedrink.jpeg" />
+                            </li>
+                            <li>
+                                <h4>Other</h4>
+                                <img src="Images/shake.jpeg" />
+                            </li>
+                        </ul>
+                        <hr>
+                        <p class="price">$6.00</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="menus">
+                        <h3>Savory</h3>
+                        <ul class="menu-list gray">
+                            <li>
+                                <h4>Coffees</h4>
+                                <img src="Images/coffeecup.jpeg" />
+                            </li>
+                            <li>
+                                <h4>Teas</h4>
+                                <img src="Images/coffeedrink.jpeg" />
+                            </li>
+                            <li>
+                                <h4>Other</h4>
+                                <img src="Images/shake.jpeg" />
+                            </li>
+                        </ul>
+                        <hr>
+                        <p class="price">$6.00</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="menus">
+                        <h3>Beverages</h3>
+                        <ul class="menu-list gray">
+                            <li>
+                                <h4>Coffees</h4>
+                                <img src="Images/almondcake.jpeg" />
+                            </li>
+                            <li>
+                                <h4>Teas</h4>
+                                <img src="Images/pexels-photo-209618.jpeg" />
+                            </li>
+                            <li>
+                                <h4>Other</h4>
+                                <img src="Images/pexels-photo-306070.jpeg" />
+                            </li>
+                        </ul>
+                        <hr>
+                        <p class="price">$6.00</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="ordering">
+                <h3>Tremendous selection of fair trade beans from around the world! </h3>
+                <div class="ordering-image-container">
+                </div>
+            </div>
+            <div class="ordering-form">
+                <form class="pure-form pure-form-aligned">
+                    <fieldset>
+                        <div class="pure-control-group">
+                            <label for="name">Name</label>
+                            <input id="name" type="text" placeholder="Name">
+                            <span class="pure-form-message-inline">This is a required field.</span>
+                        </div>
+
+                        <div class="pure-control-group">
+                            <label for="phone">Phone</label>
+                            <input id="password" placeholder="Phone">
+                        </div>
+
+                        <div class="pure-control-group">
+                            <label for="email">Email Address</label>
+                            <input id="email" type="email" placeholder="Email Address">
+                        </div>
+
+                        <div class="pure-control-group">
+                            <label for="foo">Supercalifragilistic Label</label>
+                            <input id="foo" type="text" placeholder="Enter order here...">
+                        </div>
+
+                        <div class="pure-controls">
+                            <label for="cb" class="pure-checkbox">
+                                <input id="cb" type="checkbox"> I've read the terms and conditions
+                            </label>
+
+                            <button type="submit" class="pure-button pure-button-primary">Submit</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="beans"></div>
+    <!-- footer -->
+    <footer class="footer">
+        <p>&copy; 2018 Holly N. Little</p>
+    </footer>
+    <!-- JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    </div>
+</body>
+</html>

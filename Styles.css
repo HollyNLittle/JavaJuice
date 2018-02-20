@@ -1,0 +1,259 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+.logo {
+    color: tan;
+}
+
+footer {
+    background: darkgrey;
+    color: gainsboro;
+    font-family: 'Javanese Text';
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 2vh 0 0 0;
+    margin: 4vh 0 0 0;
+}
+
+.gray {
+    color: gray;
+}
+
+/*navigation*/
+a:hover {
+    color: rgb(168,123,123);
+}
+
+a:active {
+    color: darkkhaki;
+}
+
+a:current {
+    color: darkkhaki;
+}
+
+.active {
+    color: slategrey;
+}
+/*home*/
+header {
+    padding: 2vh 0 1vh 0;
+}
+
+    header h1 {
+        font-family: 'Javanese Text';
+        font-size: 7rem;
+        font-weight: 900;
+    }
+
+#home-page {
+    text-align: center;
+}
+
+#home-content {
+    padding: 2px;
+    margin: 2vh 5vw 1vh 2vw;
+}
+
+    #home-content img {
+        width: 37vw;
+        box-shadow: -10px 20px 50px rgba(0,0,30,0.4);
+        border-radius: 10px;
+    }
+
+    #home-content .text {
+        margin: 9vh 0 0 0;
+    }
+/*menu*/
+.inner-pages-header {
+    border-bottom: 1px solid gainsboro;
+    font-family: 'Javanese Text';
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menus {
+    text-align: center;
+    box-shadow: 0 5px 30px rgba(0,0,0,0.3);
+    padding: 3px;
+    width: 20vw;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.menu-list li {
+    text-decoration: none;
+}
+
+.menu-list img {
+    width: 10vw;
+    border-radius: 5px;
+}
+
+.price {
+    color: sienna;
+    font-style: italic;
+}
+
+.ordering {
+    background-color: dimgrey;
+    color: snow;
+    text-align: center;
+    padding: 7px;
+    border-radius: 5px;
+    margin: 0px 10vw;
+    border: 2px dotted gainsboro;
+}
+
+.ordering-image {
+    width: 50px;
+    opacity: 0.4;
+    border-radius: 5%;
+    padding: 0 50px;
+}
+
+.ordering-image-container {
+    width: 50px;
+    background-image: url('Images/coffeebeans.jpeg');
+}
+
+.about-image {
+    width: 200px;
+    opacity: 0.5;
+    border-radius: 5px;
+}
+
+
+/*catering*/
+h6 {
+    font-family: Pristina;
+}
+form{
+    text-align:left;
+}
+.reviews {
+    font-family: Pristina;
+    font-size: 4rem;
+    font-weight: 900;
+    background-color: gainsboro;
+    color: dimgray;
+    padding: 10px;
+    margin: 0 30vw;
+    text-align: center;
+    width: 27vw;
+    border: 3px dotted white;
+}
+.reviews h6{
+    text-align:right;
+}
+
+.glyphicon-star {
+    color: lightgoldenrodyellow;
+    font-size: 2rem;
+}
+
+.catering-info {
+    text-align: center;
+    box-shadow: 0 5px 30px rgba(0,0,0,0.3);
+    padding: 3px 0 20px 0;
+    width: 35vw;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+.catering-order-form{
+    box-shadow: 0 5px 30px rgba(0,0,0,0.3);
+    padding: 5vh 5vw;
+    border-radius: 5px;
+    margin: 15px 0;
+    height:40vh;
+
+}
+
+.beans {
+    width: 100px;
+    background-image: url('Images/beans.jpg');
+}
+/*ordering page*/
+
+/*about page*/
+#about-content {
+    background-color: gainsboro;
+    width: 86vw;
+    padding: 5vh 5vw 5vh 3vw;
+}
+#about-content p{
+   font-size:1.7rem;
+}
+.about-box {
+    margin: 3vh 0;
+}
+
+.who {
+    width: 80vw;
+    background-image: url('Images/owner.jpeg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: left;
+    padding: 5vh 0 5vh 2vw;
+    margin-bottom: 5vh;
+}
+
+.who-text p {
+    color: dimgray;
+    margin: 0 500px 0 0;
+}
+
+.who-text h2 {
+    padding-top: 100px;
+    color: rgb(168,123,123);
+}
+
+#why {
+    width: 80vw;
+    background-image: url('Images/pablo-merchan-montes.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: left;
+    padding: 11vh 15vw;
+    margin-bottom: 5vh;
+}
+
+#why-text h2 {
+    color: blanchedalmond;
+}
+
+#why-text p {
+    color: whitesmoke;
+    text-shadow: 0 5px 20px rgba(0,0,0,0.7);
+}
+
+#where {
+    width: 80vw;
+    background-image: url('Images/ravi-pinisetti-64165-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: left;
+    padding: 10vh 15vw 4vh 15vw;
+    color: white;
+}
+
+#where-text h2 {
+    color: rgb(168,123,123);
+}
+
+#where-text p {
+    color: whitesmoke;
+}

@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Java Juice Catering</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- navigation -->
+        <div class="masthead">
+            <nav>
+                <ul class="nav nav-justified">
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="Menu.html">Menu</a></li>
+                    <li><a href="Catering.html">Catering</a></li>
+                    <li><a href="Ordering.html">Order Java Beans</a></li>
+                    <li><a href="About.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- header -->
+        <header class="inner-pages-header">
+            <h2>The Java Juice Catering <span class="logo"><i class="fas fa-coffee"></i></span></h2>
+        </header>
+
+        <!-- row 1 -->
+        <div class="row">
+            <div class="col-sm-7">
+                <div class="menus">
+                    <h3>Catering Menu Options</h3>
+                    <hr>
+                    <ul class="menu-list gray">
+                        <li>
+                            <h4>
+                                Beverages <i class="fas fa-coffee"></i>
+                            </h4>
+                            <img src="Images/twocoffees.jpeg" />
+                            <hr>
+                            <p class="price">$33.00/12</p>
+                            <hr>
+                        </li>
+                        <li>
+                            <h4>
+                                Savory <span class="glyphicon glyphicon-cutlery" aria-hidden="true"></span>
+                            </h4>
+                            <img src="Images/brunch.jpg" />
+                            <hr>
+                            <p class="price">$36.00/12</p>
+                            <hr>
+                        </li>
+                        <li>
+                            <h4>
+                                Sweets <span class="glyphicon glyphicon-ice-lolly-tasted" aria-hidden="true"></span>
+                            </h4>
+                            <img src="Images/tartes.jpg" />
+                            <hr>
+                            <p class="price">$36.00/12</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-5">
+                <div class="catering-info">
+                    <h3>
+                        Catering Info
+                    </h3>
+                    <hr>
+                    <h4>Allow minimum of 24 hours.</h4>
+                    <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+                    <h4>Delivery charge: </h4><p class="price">$10.00</p>
+                    <i class="fas fa-car"></i>
+                    <span class="glyphicon glyphicon-transportation" aria-hidden="true"></span>
+                    <h4>Catering Contact:</h4>
+                    <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>
+                    Phone: 323-564-7171 ext. 112
+                    <hr>
+                    <!--form-->
+                    <form class="pure-form pure-form-aligned">
+                        <fieldset>
+                            <div class="pure-control-group">
+                                <label for="name">Name</label>
+                                <input id="name" type="text" placeholder="Name">
+                            </div>
+
+                            <div class="pure-control-group">
+                                <label for="password">Phone</label>
+                                <input id="password" type="password" placeholder="Phone">
+                            </div>
+
+                            <div class="pure-control-group">
+                                <label for="email">Email Address</label>
+                                <input id="email" type="email" placeholder="Email Address">
+                            </div>
+
+                            <div class="pure-control-group">
+                                <label for="foo">Order Details</label>
+                                <input id="foo" type="text" placeholder="Enter order information...">
+                            </div>
+
+                            <div class="pure-controls">
+                                <label for="cb" class="pure-checkbox">
+                                    <input id="cb" type="checkbox"> Delivery
+                                </label>
+                                <br>
+                                <button type="submit" class="pure-button pure-button-primary">Submit</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!--end of form-->
+        <div class="reviews">
+            <h3>Wonderful food and service!</h3>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <h6>~ Laura Leigh Smithson</h6>
+            <hr>
+            <h3>Highly recommend!</h3>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <h6>~ Kimberly N. Tucker</h6>
+            <hr>
+            <h3>Will definitely use again!</h3>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <h6>~ Marybeth Michaelson</h6>
+        </div>
+
+        <!-- footer -->
+        <footer class="footer">
+            <p>&copy; 2018 Holly N. Little</p>
+        </footer>
+
+        <!-- JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+                crossorigin="anonymous"></script>
+
+</body>
+</html>
